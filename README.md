@@ -48,13 +48,13 @@
       });
     }
     return text;
-  }
-    ```
-    
+   }
+   ```
+  
 4. 调用文本转换表情图片的方法,将转换结果在页面输出
     ```
-    let textResult = textConvert(str);
-    document.querySelector('#result').innerHTML = textResult;
+      let textResult = textConvert(str);
+      document.querySelector('#result').innerHTML = textResult;
     ```
     
 5. 示例文件 src/index.html
